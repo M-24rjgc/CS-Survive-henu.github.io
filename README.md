@@ -48,6 +48,10 @@
 
 #zbw干的
 
+## 6  [学会STFW和RTFM](https://github.com/CS-Survive-henu/CS-Survive-henu.github.io/wiki/%E5%AD%A6%E4%BC%9ASTFW%E5%92%8CRTFM)
+
+维护者:[tuling1900](https://github.com/tuling1900)
+
 ## Star History
 
 <a href="https://star-history.com/#CS-Survive-henu/Henu-Computer-Survival-Guide&Timeline">
