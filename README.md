@@ -44,6 +44,10 @@
 
 #TODO
 
+##  5  [如何使用AI](https://github.com/CS-Survive-henu/CS-Survive-henu.github.io/wiki/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8AI)
+
+#zbw干的
+
 ## Star History
 
 <a href="https://star-history.com/#CS-Survive-henu/Henu-Computer-Survival-Guide&Timeline">
