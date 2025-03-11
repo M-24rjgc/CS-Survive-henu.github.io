@@ -48,7 +48,7 @@
 
 #没写
 
-## 6  [学会STFW和RTFM](https://github.com/CS-Survive-henu/CS-Survive-henu.github.io/wiki/%E5%AD%A6%E4%BC%9ASTFW%E5%92%8CRTFM)
+## 6  [学会提问](https://github.com/CS-Survive-henu/CS-Survive-henu.github.io/wiki/%E5%AD%A6%E4%BC%9ASTFW%E5%92%8CRTFM)
 
 维护者:[tuling1900](https://github.com/tuling1900)
 
