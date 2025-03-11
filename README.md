@@ -33,7 +33,7 @@
 
 ##  2  [竞赛指北](https://github.com/CS-Survive-henu/Henu-Computer-Survival-Guide/wiki/%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8C%97) 
 
-维护者:[tuling1900](https://github.com/tuling1900)
+维护者:[Gaolei He](https://github.com/gaolei-he)，一位计算机学院23级学长
 
 ##  3  [升学（保研，考研，or出国）](https://github.com/CS-Survive-henu/Henu-Computer-Survival-Guide/wiki/%E5%8D%87%E5%AD%A6%EF%BC%88%E4%BF%9D%E7%A0%94%EF%BC%8C%E8%80%83%E7%A0%94%EF%BC%8Cor%E5%87%BA%E5%9B%BD%EF%BC%89)
 
@@ -46,7 +46,7 @@
 
 ##  5  [如何使用AI](https://github.com/CS-Survive-henu/CS-Survive-henu.github.io/wiki/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8AI)
 
-#zbw干的
+#没写
 
 ## 6  [学会STFW和RTFM](https://github.com/CS-Survive-henu/CS-Survive-henu.github.io/wiki/%E5%AD%A6%E4%BC%9ASTFW%E5%92%8CRTFM)
 
