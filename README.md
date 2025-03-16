@@ -34,7 +34,7 @@
 
 ##  2  [竞赛指北](https://github.com/CS-Survive-henu/Henu-Computer-Survival-Guide/wiki/%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8C%97) 
 
-维护者:ACM:[Gaolei He](https://github.com/gaolei-he)，CTF:一位不愿意透露姓名的计算机学院23级学长
+维护者:ACM:[Gaolei He](https://github.com/gaolei-he)，CTF:一位不愿意透露姓名的计算机学院23级学长（也许他愿意透露，但是我忘了他 Github 主页了）
 
 ##  3  [升学（保研，考研，or出国）](https://github.com/CS-Survive-henu/Henu-Computer-Survival-Guide/wiki/%E5%8D%87%E5%AD%A6%EF%BC%88%E4%BF%9D%E7%A0%94%EF%BC%8C%E8%80%83%E7%A0%94%EF%BC%8Cor%E5%87%BA%E5%9B%BD%EF%BC%89)
 
