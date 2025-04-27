@@ -65,6 +65,8 @@
 
 维护者:[tuling1900](https://github.com/tuling1900)
 
+## 7 [Lab](https://github.com/CS-Survive-henu/CS-Survive-henu.github.io/wiki/%E5%AE%9E%E9%AA%8C%E5%AE%A4)
+
 ## Star History
 
 <a href="https://star-history.com/#CS-Survive-henu/Henu-Computer-Survival-Guide&Timeline">
