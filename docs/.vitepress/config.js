@@ -8,10 +8,7 @@ export default defineConfig({
   base: '/',
   
   // 部署配置
-  outDir: '../dist',
-  
-  // 忽略死链接检查（临时解决方案）
-  ignoreDeadLinks: true,
+  outDir: '.vitepress/dist',
   
   // 主题配置
   themeConfig: {
