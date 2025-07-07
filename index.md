@@ -125,63 +125,6 @@ title: "河南大学计算机生存指北"
   </div>
 </div>
 
-  <div class="guide-card">
-    <h3>🔧 新生工具箱</h3>
-    <p>新生必备工具和软件推荐</p>
-    <a href="/wiki/新生工具箱/" class="guide-link">查看详情 →</a>
-  </div>
-
-  <div class="guide-card">
-    <h3>🏆 竞赛指北</h3>
-    <p>ACM、CTF等竞赛经验分享</p>
-    <a href="/wiki/竞赛指北/" class="guide-link">查看详情 →</a>
-  </div>
-
-  <div class="guide-card">
-    <h3>📖 升学指南</h3>
-    <p>保研、考研、出国经验分享</p>
-    <a href="/wiki/升学（保研，考研，or出国）/" class="guide-link">查看详情 →</a>
-  </div>
-
-  <div class="guide-card">
-    <h3>🤖 AI方向</h3>
-    <p>人工智能学习路线和资源</p>
-    <a href="/wiki/AI方向/" class="guide-link">查看详情 →</a>
-  </div>
-
-  <div class="guide-card">
-    <h3>🐧 Linux基础</h3>
-    <p>Linux系统学习和使用指南</p>
-    <a href="/wiki/Linux基础/" class="guide-link">查看详情 →</a>
-  </div>
-
-  <div class="guide-card">
-    <h3>🔬 实验室</h3>
-    <p>实验室选择和科研经验</p>
-    <a href="/wiki/实验室/" class="guide-link">查看详情 →</a>
-  </div>
-
-  <div class="guide-card">
-    <h3>💡 如何使用AI</h3>
-    <p>AI工具在学习中的应用</p>
-    <a href="/wiki/如何使用AI/" class="guide-link">查看详情 →</a>
-  </div>
-
-  <div class="guide-card">
-    <h3>❓ 学会提问</h3>
-    <p>提问的智慧和技巧</p>
-    <a href="/wiki/学会提问/" class="guide-link">查看详情 →</a>
-  </div>
-
-  <div class="guide-card">
-    <h3>💭 成为有梦想的CS人</h3>
-    <p>计算机专业学生的思考和成长</p>
-    <a href="/wiki/试着去成为一个有梦想的CS人/" class="guide-link">查看详情 →</a>
-  </div>
-</div>
-
-</div>
-
 ---
 
 ## 🤝 参与贡献
@@ -204,28 +147,3 @@ title: "河南大学计算机生存指北"
   <p>💫 <strong>让我们一起创造更好的计算机教育未来！</strong></p>
   <p>🎓 河南大学计算机学院 & 软件学院</p>
 </div>
-
-维护者:[CSCI](https://github.com/ESP-8266-offical)
-
-##  2  [竞赛指北](https://github.com/CS-Survive-henu/Henu-Computer-Survival-Guide/wiki/%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8C%97) 
-
-维护者:[tuling1900](https://github.com/tuling1900)
-
-##  3  [升学（保研，考研，or出国）](https://github.com/CS-Survive-henu/Henu-Computer-Survival-Guide/wiki/%E5%8D%87%E5%AD%A6%EF%BC%88%E4%BF%9D%E7%A0%94%EF%BC%8C%E8%80%83%E7%A0%94%EF%BC%8Cor%E5%87%BA%E5%9B%BD%EF%BC%89)
-
-维护者:[WesCui](https://github.com/WesCui)
-
-##  4  [AI方向](https://github.com/CS-Survive-henu/Henu-Computer-Survival-Guide/wiki/AI%E6%96%B9%E5%90%91)
-
-
-#TODO
-
-## Star History
-
-<a href="https://star-history.com/#CS-Survive-henu/Henu-Computer-Survival-Guide&Timeline">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=CS-Survive-henu/Henu-Computer-Survival-Guide&type=Timeline&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=CS-Survive-henu/Henu-Computer-Survival-Guide&type=Timeline" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=CS-Survive-henu/Henu-Computer-Survival-Guide&type=Timeline" />
- </picture>
-</a>

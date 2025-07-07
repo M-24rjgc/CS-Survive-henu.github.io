@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>河南大学计算机生存指北 - 测试页面</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #64748b;
+            --accent-color: #f59e0b;
+            --background-color: #ffffff;
+            --surface-color: #f8fafc;
+            --border-color: #e2e8f0;
+            --text-color: #1e293b;
+            --text-muted: #64748b;
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+            --radius: 0.5rem;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+            min-height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .hero-title {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .hero-subtitle {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.75rem 1.5rem;
+            border-radius: var(--radius);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.2s;
+            border: none;
+            cursor: pointer;
+            margin: 0 0.5rem;
+        }
+
+        .btn-primary {
+            background-color: white;
+            color: var(--primary-color);
+            box-shadow: var(--shadow-md);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn-secondary:hover {
+            background-color: white;
+            color: var(--primary-color);
+        }
+
+        .content-section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .guide-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .guide-card {
+            background: white;
+            padding: 2rem;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border-color);
+            transition: all 0.2s;
+        }
+
+        .guide-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary-color);
+        }
+
+        .guide-card h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.25rem;
+        }
+
+        .guide-card p {
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+        }
+
+        .guide-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .guide-link:hover {
+            text-decoration: underline;
+        }
+
+        .status-section {
+            background-color: var(--surface-color);
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: var(--radius);
+        }
+
+        .status-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .status-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            background: white;
+            border-radius: var(--radius);
+            border: 1px solid var(--border-color);
+        }
+
+        .status-icon {
+            margin-right: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .status-icon.success {
+            color: #10b981;
+        }
+
+        .status-icon.warning {
+            color: #f59e0b;
+        }
+
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 2rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1rem;
+            }
+
+            .guide-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">河南大学计算机生存指北</h1>
+            <p class="hero-subtitle">
+                由河南大学计算机学院和软件学院学生/毕业生共同维护<br>
+                为计算机专业学生提供全面的学习指南和生存攻略
+            </p>
+            <div class="hero-buttons">
+                <a href="#test" class="btn btn-primary">测试完成</a>
+                <a href="https://github.com/CS-Survive-henu/CS-Survive-henu.github.io" class="btn btn-secondary">GitHub</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-section">
+        <h2>🎉 网站重构完成测试</h2>
+        
+        <div class="status-section">
+            <h3>✅ 完成的功能</h3>
+            <ul class="status-list">
+                <li class="status-item">
+                    <span class="status-icon success">✅</span>
+                    <div>
+                        <strong>现代化首页设计</strong>
+                        <p>响应式布局，适配大屏幕电脑</p>
+                    </div>
+                </li>
+                <li class="status-item">
+                    <span class="status-icon success">✅</span>
+                    <div>
+                        <strong>Wiki知识库系统</strong>
+                        <p>重新组织内容，添加分类和标签</p>
+                    </div>
+                </li>
+                <li class="status-item">
+                    <span class="status-icon success">✅</span>
+                    <div>
+                        <strong>侧边栏导航</strong>
+                        <p>便于浏览和查找内容</p>
+                    </div>
+                </li>
+                <li class="status-item">
+                    <span class="status-icon success">✅</span>
+                    <div>
+                        <strong>现代化CSS样式</strong>
+                        <p>简洁明了，支持暗色主题</p>
+                    </div>
+                </li>
+                <li class="status-item">
+                    <span class="status-icon success">✅</span>
+                    <div>
+                        <strong>GitHub Pages部署</strong>
+                        <p>自动部署配置完成</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="guide-grid">
+            <div class="guide-card">
+                <h3>🌟 大学开始的地方</h3>
+                <p>这是你开始梦的地方，了解计算机专业的基本情况和学习方法</p>
+                <a href="#" class="guide-link">查看详情 →</a>
+            </div>
+            
+            <div class="guide-card">
+                <h3>🛠️ 新生工具箱</h3>
+                <p>新生必备的开发工具、学习资源和实用软件推荐</p>
+                <a href="#" class="guide-link">查看详情 →</a>
+            </div>
+            
+            <div class="guide-card">
+                <h3>🏆 竞赛指北</h3>
+                <p>各类编程竞赛的参与指南、训练方法和经验分享</p>
+                <a href="#" class="guide-link">查看详情 →</a>
+            </div>
+            
+            <div class="guide-card">
+                <h3>🎯 升学指导</h3>
+                <p>保研、考研、出国留学的准备指南和申请经验</p>
+                <a href="#" class="guide-link">查看详情 →</a>
+            </div>
+            
+            <div class="guide-card">
+                <h3>🤖 AI方向</h3>
+                <p>人工智能方向的学习路线、项目实践和求职指导</p>
+                <a href="#" class="guide-link">查看详情 →</a>
+            </div>
+            
+            <div class="guide-card">
+                <h3>🐧 Linux基础</h3>
+                <p>Linux系统的基础知识、常用命令和实践应用</p>
+                <a href="#" class="guide-link">查看详情 →</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
