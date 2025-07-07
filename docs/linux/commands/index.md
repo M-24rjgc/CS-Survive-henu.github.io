@@ -94,6 +94,6 @@ Linux常用命令学习和参考
 
 ## 🔗 相关链接
 
-- [Linux基础](../basics)
-- [Linux学习笔记](../notes/)
-- [Shell脚本编程](../scripting)
+- [Linux基础](/linux/basics.html)
+- [Linux学习笔记](/linux/notes/)
+- [Shell脚本编程](/linux/scripting.html)
