@@ -2,6 +2,7 @@
 
 本项目由河南大学计算机学院和软件学院的学生/毕业生共同维护  
 主要内容详见本项目的[wiki](https://github.com/CS-Survive-henu/Henu-Computer-Survival-Guide/wiki)
+
 本项目即将部署在服务器上
 
 ## 正在开发中！
