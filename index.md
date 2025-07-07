@@ -1,4 +1,9 @@
 
+---
+layout: home
+title: "河南大学计算机生存指北"
+---
+
 <div class="hero-section">
   <div class="hero-container">
     <div class="hero-content">
