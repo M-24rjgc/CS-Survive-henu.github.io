@@ -6,19 +6,28 @@ echo 🚀 河南大学计算机生存指北 - 环境设置
 echo ==========================================
 
 REM 检查Node.js
+echo 🔍 检查Node.js环境...
 node --version >nul 2>&1
 if %errorlevel% neq 0 (
-    echo ❌ Node.js 未安装
+    echo ❌ Node.js 未安装或未添加到PATH环境变量
     echo 请先安装Node.js: https://nodejs.org/
+    echo 安装后重启终端或重新登录系统
+    echo.
+    echo 如果已安装但仍然出现此错误，请检查：
+    echo 1. Node.js 是否正确安装
+    echo 2. 环境变量PATH是否包含Node.js路径
+    echo 3. 是否重启了终端
     pause
     exit /b 1
 )
 
 REM 检查npm
+echo 🔍 检查npm环境...
 npm --version >nul 2>&1
 if %errorlevel% neq 0 (
-    echo ❌ npm 未安装
-    echo 请先安装npm
+    echo ❌ npm 未安装或未添加到PATH环境变量
+    echo 请先安装npm或检查Node.js安装
+    echo 通常npm会随Node.js一起安装
     pause
     exit /b 1
 )
