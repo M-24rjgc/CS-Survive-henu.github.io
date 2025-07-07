@@ -1,0 +1,31 @@
+{
+  "name": "cs-survive-henu",
+  "version": "1.0.0",
+  "description": "河南大学计算机生存指北",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "deploy": "gh-pages -d docs/.vitepress/dist"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.31",
+    "gh-pages": "^6.0.0"
+  },
+  "keywords": [
+    "河南大学",
+    "计算机",
+    "生存指北",
+    "学习指南"
+  ],
+  "author": "河南大学计算机学院",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CS-Survive-henu/CS-Survive-henu.github.io.git"
+  }
+}

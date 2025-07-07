@@ -1,55 +1,23 @@
-# 河南大学计算机生存指北
+# 河南大学计算机生存指北 🎓
 
-[![VitePress](https://img.shields.io/badge/VitePress-1.0-brightgreen)](https://vitepress.dev/)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://cs-survive-henu.github.io)
+[![Jekyll](https://img.shields.io/badge/Jekyll-4.x-red)](https://jekyllrb.com/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/CS-Survive-henu/CS-Survive-henu.github.io)](https://github.com/CS-Survive-henu/CS-Survive-henu.github.io/stargazers)
 
 > 由河南大学计算机学院和软件学院的学生/毕业生共同维护的开源生存指南
 
 ## 🌟 项目介绍
 
-这是一个为河南大学计算机类专业学生打造的全方位学习指南，涵盖了从新生入学到毕业就业的各个阶段。项目已从Jekyll迁移到VitePress，提供更好的用户体验和维护性。
+这是一个为河南大学计算机类专业学生打造的全方位学习指南，涵盖了从新生入学到毕业就业的各个阶段。我们希望通过这个项目，帮助学弟学妹们更好地适应大学生活，提升专业技能，规划未来发展。
 
-## 🚀 快速开始
+### 🎯 主要特色
 
-### 环境要求
-- Node.js 18+ 
-- npm 或 yarn
-
-### 本地开发
-
-1. 克隆项目
-```bash
-git clone https://github.com/CS-Survive-henu/CS-Survive-henu.github.io.git
-cd CS-Survive-henu.github.io
-```
-
-2. 安装依赖
-```bash
-npm install
-```
-
-3. 启动开发服务器
-```bash
-npm run dev
-```
-
-4. 在浏览器中访问 `http://localhost:5173`
-
-### 构建和部署
-
-1. 构建项目
-```bash
-npm run build
-```
-
-2. 预览构建结果
-```bash
-npm run preview
-```
-
-3. 部署到GitHub Pages
-项目配置了GitHub Actions自动部署，推送到main分支会自动触发部署。
+- 📚 **全面覆盖**：从新生工具到升学就业，内容全面
+- 🎓 **实践导向**：真实经验分享，避免纸上谈兵
+- 🤝 **社区驱动**：由学生维护，为学生服务
+- 📱 **现代化设计**：响应式设计，支持多设备访问
+- 🚀 **持续更新**：跟上技术发展，保持内容新鲜
 
 ## 📖 内容概览
 
