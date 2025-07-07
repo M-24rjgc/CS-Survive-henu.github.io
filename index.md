@@ -5,49 +5,85 @@ title: "河南大学计算机生存指北"
 ---
 
 <div class="hero-section">
-  <div class="hero-content">
-    <h1 class="hero-title">河南大学计算机生存指北</h1>
-    <p class="hero-subtitle">
-      由河南大学计算机学院和软件学院学生/毕业生共同维护<br>
-      为计算机专业学生提供全面的学习指南和生存攻略
-    </p>
-    <div class="hero-buttons">
-      <a href="/wiki/" class="btn btn-primary">开始阅读</a>
-      <a href="https://github.com/CS-Survive-henu/CS-Survive-henu.github.io" class="btn btn-secondary">GitHub</a>
-    </div>
-  </div>
-</div>
-
-<div class="intro-section">
-  <div class="container">
-    <div class="intro-grid">
-      <div class="intro-card">
-        <div class="intro-icon">🎓</div>
-        <h3>学习指南</h3>
-        <p>从新生入学到毕业求职，涵盖计算机专业各个阶段的学习路径和经验分享</p>
-      </div>
-      <div class="intro-card">
-        <div class="intro-icon">🏆</div>
-        <h3>竞赛指北</h3>
-        <p>ACM-ICPC、挑战杯、CTF等各类竞赛的参与指南和经验总结</p>
-      </div>
-      <div class="intro-card">
-        <div class="intro-icon">🚀</div>
-        <h3>AI方向</h3>
-        <p>人工智能、机器学习、深度学习等前沿技术的学习路线和实践指南</p>
+  <div class="hero-container">
+    <div class="hero-content">
+      <h1 class="hero-title">
+        <span class="title-main">河南大学计算机生存指北</span>
+        <span class="title-sub">HENU CS SURVIVAL GUIDE</span>
+      </h1>
+      <p class="hero-description">
+        如果你有一些建议或者想要完善此 WIKI，请点击右上角 GitHub 按钮查看我们的仓库提交 issue 或者 PR！
+      </p>
+      <div class="hero-image">
+        <div class="hero-graphic">
+          <div class="graphic-element"></div>
+          <div class="graphic-element"></div>
+          <div class="graphic-element"></div>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="content-section">
+<div class="features-section">
   <div class="container">
-    <div class="section-header">
-      <h2 class="section-title">📚 内容导航</h2>
-      <p class="section-subtitle">探索我们精心整理的学习资源和实用指南</p>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">📚</div>
+        <h3 class="feature-title">使用指南</h3>
+        <p class="feature-desc">本站为HDU-CS-WIKI的河南大学版本，你可以在这里找到与计算机科学相关的各种知识和资源。</p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">�</div>
+        <h3 class="feature-title">针对性指导</h3>
+        <p class="feature-desc">针对河南大学计算机学院和软件学院的同学，提供具体的学习建议和经验分享。</p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">🤝</div>
+        <h3 class="feature-title">共同维护</h3>
+        <p class="feature-desc">本项目由河南大学计算机学院和软件学院的学生/毕业生共同维护，持续更新。</p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">🏆</div>
+        <h3 class="feature-title">AI助手</h3>
+        <p class="feature-desc">2024年以来，各类AI助手发展迅速，我们提供了如何高效利用AI助手的指导。</p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">📱</div>
+        <h3 class="feature-title">WEB前端</h3>
+        <p class="feature-desc">在移动互联网时代，掌握前端技术是计算机专业学生的必备技能。</p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">🔒</div>
+        <h3 class="feature-title">安全指南</h3>
+        <p class="feature-desc">本项目包含了一些关于网络安全和信息安全的基础知识，帮助你保护个人信息。</p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">🎓</div>
+        <h3 class="feature-title">课程总结</h3>
+        <p class="feature-desc">我们整理了一些重要专业课程的学习笔记和总结，帮助你更好地掌握专业知识。</p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">🌐</div>
+        <h3 class="feature-title">开源内容</h3>
+        <p class="feature-desc">本 WIKI 内容均可通过 GitHub 获取，包括所有 Markdown 文件和网站源代码。</p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">🤖</div>
+        <h3 class="feature-title">前沿技术</h3>
+        <p class="feature-desc">我们会及时介绍计算机科学领域的前沿技术和发展趋势，帮助你了解行业动态。</p>
+      </div>
     </div>
-    
-    <div class="guide-grid">
+  </div>
+</div>
       <div class="guide-card">
         <h3>🌟 大学开始的地方</h3>
         <p>这是你开始梦的地方，了解计算机专业的基本情况和学习方法，为大学生活做好准备。</p>

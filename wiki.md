@@ -4,7 +4,6 @@ title: "知识库"
 description: "河南大学计算机生存指北知识库，涵盖学习路径、竞赛指南、工具推荐等"
 permalink: /wiki/
 ---
----
 
 <div class="content-section">
   <div class="container">
