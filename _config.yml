@@ -1,6 +1,6 @@
 # Site settings
 title: "河南大学计算机生存指北"
-description: "河南大学计算机学院和软件学院学生/毕业生共同维护的生存指南"
+description: "河南大学计算机学院和软件学院学生/毕业生共同维护的学习指南"
 baseurl: ""
 url: "https://cs-survive-henu.github.io"
 repository: "CS-Survive-henu/CS-Survive-henu.github.io"
@@ -15,10 +15,6 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
-# GitHub Pages兼容性
-remote_theme: 
-theme: 
-
 # Plugins - GitHub Pages支持的插件
 plugins:
   - jekyll-feed
@@ -31,57 +27,17 @@ plugins:
 collections:
   wiki:
     output: true
-    permalink: /wiki/:name/
+    permalink: /:collection/:name/
+  guides:
+    output: true
+    permalink: /:collection/:name/
 
 # Sass设置
 sass:
   style: compressed
   sass_dir: assets/css
 
-# Exclude from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/
-  - README.md
-  - LICENSE
-  - deploy.sh
-  - deploy.bat
-  - preview.html
-  - test.html
-  - style-test.md
-
-# Exclude from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - README.md
-  - LICENSE
-  - deploy.sh
-  - deploy.bat
-
-# Collections
-collections:
-  wiki:
-    output: true
-    permalink: /:collection/:name/
-  guides:
-    output: true
-    permalink: /:collection/:name/
-
-# Pagination
-paginate: 5
-paginate_path: "/page:num/"
-
 # Markdown settings
-markdown: kramdown
-highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
@@ -95,32 +51,6 @@ header_pages:
   - wiki.md
   - guides.md
   - about.md
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "wiki"
-    values:
-      layout: "wiki"
-  - scope:
-      path: ""
-      type: "guides"
-    values:
-      layout: "guide"
-
-# SEO settings
-google_analytics: # 如果你有的话，可以添加 Google Analytics ID
-google_site_verification: # 如果你有的话，可以添加 Google Site Verification
-
-# Collections
-collections:
-  guides:
-    output: true
-    permalink: /:collection/:name/
-  wiki:
-    output: true
-    permalink: /:collection/:name/
 
 # Defaults
 defaults:
@@ -152,3 +82,8 @@ exclude:
   - vendor/ruby/
   - README.md
   - LICENSE
+  - deploy.sh
+  - deploy.bat
+  - preview.html
+  - test.html
+  - style-test.md
