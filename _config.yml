@@ -1,8 +1,10 @@
 # Site settings
 title: "河南大学计算机生存指北"
-description: "河南大学计算机学院和软件学院学生/毕业生共同维护的学习指南"
-baseurl: ""
-url: "https://cs-survive-henu.github.io"
+description: >- # this means to ignore newlines until "baseurl:"
+  CS-Survive-Henu is a project that provides a series of guides for CS students at Henan University.
+  We hope that this project can help you to survive in the university.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://cs-survive-henu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: "CS-Survive-henu/CS-Survive-henu.github.io"
 
 # Author settings

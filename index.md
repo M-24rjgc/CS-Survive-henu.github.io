@@ -1,9 +1,3 @@
-
----
-layout: home
-title: "河南大学计算机生存指北"
----
-
 <div class="hero-section">
   <div class="hero-container">
     <div class="hero-content">
@@ -39,7 +33,7 @@ title: "河南大学计算机生存指北"
       </div>
       
       <div class="feature-card">
-        <div class="feature-icon">�</div>
+        <div class="feature-icon">🧠</div>
         <h3 class="feature-title">AI方向</h3>
         <p class="feature-desc">人工智能、机器学习、深度学习等前沿技术的学习路线和实践指南</p>
       </div>
@@ -68,52 +62,52 @@ title: "河南大学计算机生存指北"
 <div class="content-section">
   <div class="container">
     <div class="section-header">
-      <h2 class="section-title">📚 内容导航</h2>
+      <h2 class="section-title">内容导航</h2>
       <p class="section-subtitle">探索我们精心整理的学习资源和实用指南</p>
     </div>
     
     <div class="guide-grid">
       <div class="guide-card">
-        <h3>🌟 大学开始的地方</h3>
+        <h3>大学开始的地方</h3>
         <p>这是你开始梦的地方，了解计算机专业的基本情况和学习方法，为大学生活做好准备。</p>
         <a href="/wiki/HCSG-大学开始的地方/" class="guide-link">查看详情</a>
       </div>
       
       <div class="guide-card">
-        <h3>🛠️ 新生工具箱</h3>
+        <h3>新生工具箱</h3>
         <p>新生必备的开发工具、学习资源和实用软件推荐，让你的学习事半功倍。</p>
         <a href="/wiki/新生工具箱/" class="guide-link">查看详情</a>
       </div>
       
       <div class="guide-card">
-        <h3>🏆 竞赛指北</h3>
+        <h3>竞赛指北</h3>
         <p>各类编程竞赛的参与指南、训练方法和经验分享，助你在竞赛中脱颖而出。</p>
         <a href="/wiki/竞赛指北/" class="guide-link">查看详情</a>
       </div>
       
       <div class="guide-card">
-        <h3>🎯 升学指导</h3>
+        <h3>升学指导</h3>
         <p>保研、考研、出国留学的准备指南和申请经验，规划你的学术未来。</p>
         <a href="/wiki/升学（保研，考研，or出国）/" class="guide-link">查看详情</a>
       </div>
       
       <div class="guide-card">
-        <h3>🤖 AI方向</h3>
+        <h3>AI方向</h3>
         <p>人工智能方向的学习路线、项目实践和求职指导，跟上AI时代的步伐。</p>
         <a href="/wiki/AI方向/" class="guide-link">查看详情</a>
       </div>
       
       <div class="guide-card">
-        <h3>🐧 Linux基础</h3>
-        <p>Linux系统的基础知识、常用命令和实践应用，掌握开发者必备技能。</p>
-        <a href="/wiki/Linux基础/" class="guide-link">查看详情</a>
+        <h3>开源贡献</h3>
+        <p>参与开源项目，提升编程技能，与全球开发者社区交流合作。</p>
+        <a href="/OpenSource/" class="guide-link">查看详情</a>
       </div>
     </div>
   </div>
 </div>
 
-<div class="container">
-  <div class="contribute-section">
+<div class="contribute-section">
+  <div class="container">
     <h2>🤝 参与贡献</h2>
     <p>欢迎所有河南大学计算机学院和软件学院的同学参与贡献！你可以：</p>
     <ul>
