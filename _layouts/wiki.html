@@ -1,0 +1,88 @@
+---
+layout: default
+---
+
+<div class="wiki-container">
+  <div class="wiki-sidebar">
+    <h3>📚 知识库目录</h3>
+    <nav class="wiki-nav">
+      <div class="nav-section">
+        <h4>🎯 新生指南</h4>
+        <ul>
+          <li><a href="/wiki/HCSG-大学开始的地方/">大学开始的地方</a></li>
+          <li><a href="/wiki/新生工具箱/">新生工具箱</a></li>
+          <li><a href="/wiki/学会提问/">学会提问</a></li>
+        </ul>
+      </div>
+      
+      <div class="nav-section">
+        <h4>🏆 竞赛与实践</h4>
+        <ul>
+          <li><a href="/wiki/竞赛指北/">竞赛指北</a></li>
+          <li><a href="/wiki/实验室/">实验室</a></li>
+        </ul>
+      </div>
+      
+      <div class="nav-section">
+        <h4>🚀 技术方向</h4>
+        <ul>
+          <li><a href="/wiki/AI方向/">AI方向</a></li>
+          <li><a href="/wiki/Linux基础/">Linux基础</a></li>
+          <li><a href="/wiki/如何使用AI/">如何使用AI</a></li>
+        </ul>
+      </div>
+      
+      <div class="nav-section">
+        <h4>🎓 升学与就业</h4>
+        <ul>
+          <li><a href="/wiki/升学（保研，考研，or出国）/">升学指导</a></li>
+          <li><a href="/wiki/试着去成为一个有梦想的CS人/">成为有梦想的CS人</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  
+  <div class="wiki-content">
+    <div class="wiki-header">
+      <h1>{{ page.title }}</h1>
+      {% if page.description %}
+        <p class="wiki-description">{{ page.description }}</p>
+      {% endif %}
+      
+      <div class="wiki-meta">
+        {% if page.date %}
+          <span class="meta-item">📅 {{ page.date | date: "%Y-%m-%d" }}</span>
+        {% endif %}
+        {% if page.author %}
+          <span class="meta-item">👤 {{ page.author }}</span>
+        {% endif %}
+        {% if page.tags %}
+          <div class="meta-tags">
+            {% for tag in page.tags %}
+              <span class="tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+    
+    <div class="wiki-body">
+      {{ content }}
+    </div>
+    
+    <div class="wiki-footer">
+      <div class="wiki-actions">
+        <a href="https://github.com/CS-Survive-henu/CS-Survive-henu.github.io/edit/main/{{ page.path }}" class="btn btn-outline">
+          ✏️ 编辑此页
+        </a>
+        <a href="/wiki/" class="btn btn-outline">
+          📚 返回目录
+        </a>
+      </div>
+      
+      <div class="wiki-contribute">
+        <p>发现错误或有改进建议？欢迎在 <a href="https://github.com/CS-Survive-henu/CS-Survive-henu.github.io">GitHub</a> 上提出 Issue 或 Pull Request。</p>
+      </div>
+    </div>
+  </div>
+</div>
