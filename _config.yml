@@ -10,19 +10,30 @@ author:
   name: "河南大学计算机学院"
   email: "cs-survive@henu.edu.cn"
 
-# Theme settings
-theme: minima
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-paginate
 
-# Minima theme settings
-minima:
-  skin: dark
-  social_links:
-    github: CS-Survive-henu
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE
+  - deploy.sh
+  - deploy.bat
 
 # Collections
 collections:

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "内容导航"
+description: "计算机专业学习路径和经验分享"
 permalink: /guides/
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "关于我们"
+description: "了解河南大学计算机生存指北项目的背景、目标和贡献者"
 permalink: /about/
 ---
 

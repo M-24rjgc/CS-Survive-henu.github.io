@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    
+    <!-- 加载自定义CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    
+    <!-- SEO和社交媒体 -->
+    {% seo %}
+    
+    <!-- 图标 -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- 字体 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="{{ '/' | relative_url }}" class="navbar-brand">
+                <span class="brand-icon">🎓</span>
+                {{ site.title }}
+            </a>
+            <div class="navbar-menu">
+                <a href="{{ '/' | relative_url }}" class="navbar-item">首页</a>
+                <a href="{{ '/wiki/' | relative_url }}" class="navbar-item">知识库</a>
+                <a href="{{ '/guides/' | relative_url }}" class="navbar-item">指南</a>
+                <a href="{{ '/about/' | relative_url }}" class="navbar-item">关于</a>
+                <a href="https://github.com/CS-Survive-henu/CS-Survive-henu.github.io" class="navbar-item" target="_blank">GitHub</a>
+            </div>
+            <div class="navbar-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主要内容 -->
+    <main class="main-content">
+        {{ content }}
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>河南大学计算机生存指北</h4>
+                    <p>为计算机专业学生提供全面的学习指南和生存攻略</p>
+                </div>
+                <div class="footer-section">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="{{ '/wiki/' | relative_url }}">知识库</a></li>
+                        <li><a href="{{ '/guides/' | relative_url }}">学习指南</a></li>
+                        <li><a href="{{ '/about/' | relative_url }}">关于我们</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>联系我们</h4>
+                    <ul>
+                        <li><a href="https://github.com/CS-Survive-henu/CS-Survive-henu.github.io" target="_blank">GitHub</a></li>
+                        <li><a href="mailto:cs-survive@henu.edu.cn">邮箱反馈</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 河南大学计算机生存指北. 本项目采用 MIT 许可证.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // 导航栏切换
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggle = document.querySelector('.navbar-toggle');
+            const menu = document.querySelector('.navbar-menu');
+            
+            toggle.addEventListener('click', function() {
+                menu.classList.toggle('active');
+                toggle.classList.toggle('active');
+            });
+        });
+
+        // 平滑滚动
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
