@@ -49,7 +49,6 @@
   --gradient-accent: linear-gradient(135deg, var(--accent-color), var(--success-color));
   --gradient-bg: linear-gradient(135deg, var(--bg-secondary), var(--bg-tertiary));
 }
-}
 
 /* 基础样式重置 */
 * {
@@ -174,9 +173,6 @@ body {
   background: var(--text-primary);
   transition: var(--transition);
   border-radius: 1px;
-}
-  background: var(--text-primary);
-  transition: var(--transition);
 }
 
 /* 主内容区域 */
@@ -653,8 +649,6 @@ body {
 
 .guide-link:hover::after {
   transform: translateX(4px);
-}
-  overflow: hidden;
 }
 
 .guide-card::before {
