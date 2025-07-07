@@ -1,9 +1,7 @@
 source 'https://rubygems.org'
 
-gem "jekyll", "~> 4.3.0"
-gem "jekyll-feed", "~> 0.12"
-gem "jekyll-sitemap"
-gem "jekyll-seo-tag"
+# GitHub Pages兼容配置
+gem "github-pages", group: :jekyll_plugins
 gem "webrick", "~> 1.7"
 
 # Windows和JRuby不包含zoneinfo文件，所以打包tzinfo-data gem
