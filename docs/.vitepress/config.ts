@@ -62,7 +62,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/CS-Survive-henu/CS-Survive-henu.github.io' }
     ],
     footer: {
-      message: '由河南大学计算机学院和软件学院的学生/毕业生共同维护',
+      message: '由河南大学计算机学院和软件学院的学生/毕业生共同维护，本项目不隶属于任何单位和个人,任何单位和个人对本项目都没有强迫修改和染指的权利',
       copyright: 'Copyright © 2024 CS-Survive-Henu'
     },
     docFooter: {

@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "河南大学计算机生存指北"
   text: "CS-Survive-Henu"
-  tagline: "由河南大学计算机学院和软件学院的学生/毕业生共同维护的开源生存指南 本项目不隶属于任何单位和个人,任何单位和个人对本项目都没有强迫修改和染指的权利"
+  tagline: "由河南大学计算机学院和软件学院的学生/毕业生共同维护的开源生存指南"
   image:
     src: /logo.svg
     alt: CS-Survive-Henu
