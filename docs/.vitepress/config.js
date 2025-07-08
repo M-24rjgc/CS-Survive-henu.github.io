@@ -10,8 +10,22 @@ export default defineConfig({
   // 部署配置
   outDir: '.vitepress/dist',
   
+  // 确保静态资源正确加载
+  assetsDir: 'assets',
+  
   // 临时忽略死链接检查
   ignoreDeadLinks: true,
+  
+  // 清理 URL
+  cleanUrls: true,
+  
+  // 启用 MPA 模式以避免单页应用问题
+  mpa: false,
+  
+  // 站点地图
+  sitemap: {
+    hostname: 'https://cs-survive-henu.github.io'
+  },
   
   // 主题配置
   themeConfig: {

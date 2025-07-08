@@ -5,7 +5,6 @@ on:
   # 触发条件：推送到 main 分支
   push:
     branches: [main]
-
   # 允许手动触发
   workflow_dispatch:
 
@@ -30,7 +29,7 @@ jobs:
         with:
           fetch-depth: 0 # 需要完整历史记录用于 lastUpdated
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -40,13 +39,19 @@ jobs:
         uses: actions/configure-pages@v4
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build with VitePress
         run: |
           npm run build
-          mkdir -p docs/.vitepress/dist
+          # 创建 .nojekyll 文件以禁用 Jekyll 处理
           touch docs/.vitepress/dist/.nojekyll
+          # 复制 favicon 到根目录
+          cp favicon.ico docs/.vitepress/dist/ 2>/dev/null || true
+          # 确保资源文件正确复制
+          if [ -d "docs/public" ]; then
+            cp -r docs/public/* docs/.vitepress/dist/
+          fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
