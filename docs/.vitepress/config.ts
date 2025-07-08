@@ -26,7 +26,7 @@ export default defineConfig({
         { text: '学会提问', link: '/学会提问' },
         { text: '如何使用AI', link: '/如何使用AI' },
         { text: '成为有梦想的CS人', link: '/试着去成为一个有梦想的CS人' },
-        { text: 'HCSG', link: '/HCSG-大学开始的地方' }
+        { text: 'HCSG', link: '/HCSG‐大学开始的地方' }
       ]}
     ],
     sidebar: {
@@ -53,7 +53,7 @@ export default defineConfig({
           text: '🌟 成长感悟',
           items: [
             { text: '试着去成为一个有梦想的CS人', link: '/试着去成为一个有梦想的CS人' },
-            { text: 'HCSG-大学开始的地方', link: '/HCSG-大学开始的地方' }
+            { text: 'HCSG-大学开始的地方', link: '/HCSG‐大学开始的地方' }
           ]
         }
       ]
