@@ -1,7 +1,7 @@
 ---
 title: "升学指导（保研，考研，or出国）"
 description: "保研、考研、出国留学的准备指南和申请经验"
-layout: wiki
+layout: doc
 tags: ["保研", "考研", "出国", "升学指导"]
 ---
 

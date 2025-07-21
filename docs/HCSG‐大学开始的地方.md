@@ -1,7 +1,7 @@
 ---
 title: "HCSG - 大学开始的地方"
 description: "计算机专业新生入学指南，包含电脑选择、学习方法等基础建议"
-layout: wiki
+layout: doc
 tags: ["新生指南", "专业介绍", "硬件选择"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "如何使用AI"
 description: "在学习和工作中如何高效使用AI工具"
-layout: wiki
+layout: doc
 tags: ["AI工具", "效率提升", "学习方法"]
 ---
 

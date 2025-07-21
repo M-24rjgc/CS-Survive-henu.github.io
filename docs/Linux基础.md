@@ -1,7 +1,7 @@
 ---
 title: "Linux基础"
 description: "Linux系统的基础知识、常用命令和实践应用"
-layout: wiki
+layout: doc
 tags: ["Linux", "命令行", "系统管理"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "AI方向"
 description: "人工智能方向的学习路线、项目实践和求职指导"
-layout: wiki
+layout: doc
 tags: ["人工智能", "机器学习", "深度学习", "AI学习"]
 ---
 

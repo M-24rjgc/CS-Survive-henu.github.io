@@ -1,7 +1,7 @@
 ---
 title: "试着去成为一个有梦想的CS人"
 description: "计算机专业学生的职业规划和人生思考"
-layout: wiki
+layout: doc
 tags: ["职业规划", "人生感悟", "CS生涯"]
 ---
 
