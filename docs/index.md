@@ -84,6 +84,10 @@ features:
 
 了解我们的组织和更多信息，请查看 [HCSG-大学开始的地方](/HCSG‐大学开始的地方)。
 
+## 🔗 友情链接
+
+- [HDU计算机科学讲义](https://hdu-cs.wiki/) - 杭州电子科技大学计算机科学知识分享平台
+
 ---
 
 > 💡 **提示**: 这个项目由河南大学计算机学院和软件学院的同学们共同维护，如果你有任何建议或想要贡献内容，欢迎在 [GitHub](https://github.com/CS-Survive-henu/CS-Survive-henu.github.io) 上提交 Issue 或 Pull Request。
