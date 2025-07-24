@@ -58,11 +58,34 @@ ENOENT: no such file or directory
 
 **解决方案：**
 检查以下文件是否存在：
-- `docs/.vitepress/config.mjs`
+- `docs/.vitepress/config.ts`
 - `docs/index.md`
 - `package.json`
 
-### 6. ❌ 网站显示 404
+### 7. ❌ Azure Static Web Apps 部署失败
+
+**错误信息：**
+```
+Build failed - no build output found
+Unable to find build artifacts
+```
+
+**解决方案：**
+✅ 已修复！Azure 工作流现在包含完整的 VitePress 构建流程：
+1. Node.js 环境设置
+2. 自动依赖安装
+3. VitePress 构建过程
+4. 正确的输出目录配置 (`docs/.vitepress/dist`)
+
+### 8. ❌ Azure 与 GitHub Pages 部署冲突
+
+**症状：** 两个部署工作流同时运行导致资源竞争
+
+**解决方案：**
+✅ 已优化！两个部署流程现在可以并行工作：
+- GitHub Pages 部署：用于主要站点托管
+- Azure Static Web Apps：用于 CDN 加速和全球分发
+- 两者使用相同的 VitePress 构建流程，确保一致性
 
 **可能原因：**
 - base 路径配置错误
@@ -70,7 +93,7 @@ ENOENT: no such file or directory
 - 部署目录错误
 
 **解决方案：**
-1. 检查 `docs/.vitepress/config.mjs` 中的 `base` 设置
+1. 检查 `docs/.vitepress/config.ts` 中的 `base` 设置
 2. 确保所有链接路径正确
 3. 检查 GitHub Pages 设置
 
@@ -132,7 +155,7 @@ ls -la docs/.vitepress/dist/
 
 ### 4. 验证配置文件
 ```bash
-node -e "console.log(JSON.stringify(require('./docs/.vitepress/config.mjs'), null, 2))"
+node -e "console.log(JSON.stringify(require('./docs/.vitepress/config.ts'), null, 2))"
 ```
 
 ## 📞 获取帮助
